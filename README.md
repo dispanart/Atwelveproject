@@ -1,2 +1,2 @@
-# Atwelveproject
-Grup A12 Bootcamp Progate x Anak Teknik
+# twelveproject
+Grup A12 Bootcamp Anak Teknik x Progate
