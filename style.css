@@ -160,6 +160,7 @@ main {
   display: flex;
   align-items: center;
 }
+
 .heading-about {
   position: absolute;
   width: 85%;
@@ -172,6 +173,97 @@ main {
 
 .heading-about p {
   padding-top: 10px;
+}
+
+
+.lessons-wrapper {
+  height: 600px;
+  background-color: #f7f7f7;
+  padding-bottom: 58px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+}
+
+.heading h2 {
+
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+
+}
+
+.lesson-icon {
+  position: relative;
+  align-items: center;
+  height: 180px;
+
+}
+
+.lesson img {
+  width: 150px;
+  height: 150px;
+
+}
+
+
+.lesson-icon p {
+  position: absolute;
+  width: 100%;
+  color: rgb(53, 51, 51);
+}
+
+.text-content {
+  width: 80%;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  display: inline-block;
+}
+
+
+
+.message-wrapper {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.content-message {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.content-message h2 {
+  font-weight: Bold;
+}
+
+.content-message h3 {
+  font-weight: normal;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #FF8243;
+  opacity: 0.8;
+  box-shadow: 0px 7px #b38c79;
+  cursor: pointer;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  bottom: 10px;
 }
 
 .card-wrapper-top {
