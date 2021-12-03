@@ -1,0 +1,62 @@
+/* tablet */
+@media all and (max-width: 1000px) {
+  .card-wrapper-top {
+      justify-content: space-between;
+      margin: 0px 25px 0px 25px;
+  }
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+
+    header {
+        height: 100px;
+    }
+
+    .nav ul{
+        width: 100%;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    .content img {
+        width: 80%;
+        bottom: 25%;
+    }
+
+    .content .content-head {
+        width: 100%;
+        align-items: center;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        width: 100%;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 50px;
+      }
+      
+      .content p {
+        text-align: justify;
+        width: 100%;
+        font-size: 14px;
+        margin-left: 25px;
+      }
+      
+      .sharing {
+          display: none;
+      }
+
+      .card-wrapper-top {
+          margin-top: 250px;
+          flex-direction: column;
+      }
+
+      .card-wrapper-bottom {
+          flex-direction: column;
+      }
+}
