@@ -25,30 +25,14 @@ header {
   margin-left: 25px;
 }
 
-.header-right {
+.header-right form {
   float: right;
   transition: all 0.5s;
+  padding: 20px 40px 20px 40px;
 }
 
-.header-right:hover {
+.header-right form:hover {
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right ul {
-  display: flex;
-  width: 400px;
-  justify-content: space-around;
-}
-
-.header-right li {
-  list-style: none;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
 }
 
 main {
